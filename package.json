@@ -1,0 +1,12 @@
+{
+  "name": "focus-study-planner",
+  "version": "1.0.0",
+  "description": "AI Study Planner — generate smart daily & weekly study schedules from subjects, exams, priorities and available time.",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node smoke-test.js && node dom-test.js"
+  },
+  "keywords": ["study", "planner", "schedule", "productivity"],
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+# Dependencies (none required — pure static app, but ignored for safety)
+node_modules/
+
+# Logs & OS cruft
+*.log
+.DS_Store
+Thumbs.db
+
+# Secrets — never commit these
+.env
+.env.*
+*.pem
+*.key
+
+# Editor
+.vscode/
+.idea/
